@@ -1,6 +1,6 @@
 # python-stub
 
-A project stub template for python projects with CI integration.
+A project stub template for python projects with CI integration and pre-commit hooks.
 
 ## Initializing a New Repository
 
