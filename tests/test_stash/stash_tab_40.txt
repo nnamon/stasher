@@ -1,0 +1,621 @@
+Rarity: Normal
+Eclipse Staff
+--------
+Staff
+Physical Damage: 60-125
+Critical Strike Chance: 6.00%
+Attacks per Second: 1.20
+Weapon Range: 13
+--------
+Requirements:
+Level: 70
+Str: 117
+Int: 117
+--------
+Sockets: R-R-R B-B G
+--------
+Item Level: 83
+--------
+100% increased Global Critical Strike Chance (implicit)
+
+
+Rarity: Divination Card
+Her Mask
+--------
+Stack Size: 4/4
+--------
+Sacrifice Fragment
+--------
+To her beauty you submit,
+lest your neck the great Queen slit.
+--------
+Shift click to unstack.
+
+
+Rarity: Currency
+Scorched Fossil
+--------
+Stack Size: 1/20
+--------
+More Fire modifiers
+No Cold modifiers
+--------
+Place in a Resonator to influence item crafting.
+
+
+Rarity: Currency
+Screaming Essence of Scorn
+--------
+Stack Size: 1/9
+--------
+Upgrades a normal item to rare with one guaranteed property
+
+Weapon: (80-99)% increased Critical Strike Chance for Spells
+Gloves: (23-26)% chance to Avoid being Stunned
+Helmet: (23-26)% chance to Avoid being Stunned
+Shield: (80-99)% increased Critical Strike Chance for Spells
+Other Armour: (3-4)% chance to Dodge Spell Hits
+Quiver: (25-29)% to Global Critical Strike Multiplier
+Amulet: (25-29)% to Global Critical Strike Multiplier
+Ring: (15-17)% to Global Critical Strike Multiplier
+Belt: (12-13)% reduced Enemy Stun Threshold
+--------
+Right click this item then left click a normal item to apply it.
+
+
+Rarity: Unique
+Lord of the Ashen Arrow's Heart
+--------
+Uses: Blast Bombard
+--------
+Item Level: 81
+--------
+Drops an Incursion Weapon
+Drops additional Divination Cards
+Drops additional Currency Items
+Drops additional Incursion Armour
+--------
+Combine this with four other different samples in Tane's Laboratory.
+
+
+Rarity: Gem
+Precision
+--------
+Aura, Spell, AoE
+Level: 1
+Mana Reserved: 22
+Cooldown Time: 1.20 sec
+Cast Time: Instant
+Quality: +5% (augmented)
+Experience: 1/9,569
+--------
+Requirements:
+Level: 10
+Dex: 18
+--------
+Casts an aura that grants accuracy and critical strike chance to you and your allies.
+--------
+10% increased Area of Effect
+You and nearby allies gain 40% increased Critical Strike Chance
+You and nearby allies gain +93 to Accuracy Rating
+--------
+Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+
+
+Rarity: Normal
+Foreboding Incubator
+--------
+Item Level: 83
+--------
+Adds incubated valuable Currency Shards or a Harbinger item to an equippable item
+Item drops after killing 10,407 monsters
+--------
+Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.
+
+
+Rarity: Gem
+Chain Support
+--------
+Support, Chaining, Projectile
+Level: 2
+Mana Multiplier: 150%
+Quality: +5% (augmented)
+Experience: 1/477,437
+--------
+Requirements:
+Level: 40
+Dex: 66
+--------
+Supports projectile skills, and any other skills that chain.
+--------
+Supported Skills Chain +2 times
+Supported Skills deal 29% less Damage with Hits
+Supported Skills have 5% increased Projectile Speed
+--------
+This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+--------
+Corrupted
+
+
+Rarity: Rare
+Conjurer Boots
+--------
+Energy Shield: 34
+--------
+Requirements:
+Intelligence: 94
+--------
+Sockets: B B
+--------
+Item Level: 84
+--------
+Unidentified
+--------
+Crusader Item
+
+
+Rarity: Rare
+Karui Sceptre
+--------
+Sceptre
+Physical Damage: 37-55
+Critical Strike Chance: 6.00%
+Attacks per Second: 1.50
+Weapon Range: 11
+--------
+Requirements:
+Str: 96
+Int: 96
+--------
+Sockets: B-R B
+--------
+Item Level: 84
+--------
+26% increased Elemental Damage (implicit)
+--------
+Unidentified
+--------
+Crusader Item
+
+
+Rarity: Rare
+Hate Cloak
+Triumphant Lamellar
+--------
+Armour: 598 (augmented)
+Evasion Rating: 639 (augmented)
+--------
+Requirements:
+Level: 69
+Str: 95
+Dex: 116
+--------
+Sockets: G-R
+--------
+Item Level: 70
+--------
++20 to Strength
++218 to Armour
++162 to Evasion Rating
+Recover 3% of Life on Kill
+Reflects 24 Physical Damage to Melee Attackers
+--------
+Warlord Item
+
+
+Rarity: Rare
+Morbid Veil
+Savant's Robe
+--------
+Energy Shield: 145 (augmented)
+--------
+Requirements:
+Level: 56
+Int: 152
+--------
+Sockets: B-R B
+--------
+Item Level: 70
+--------
++36 to maximum Energy Shield
++85 to maximum Mana
++20% to Lightning Resistance
+11% increased Energy Shield Recovery rate
+--------
+Crusader Item
+
+
+Rarity: Rare
+Woe Dash
+Crusader Boots
+--------
+Armour: 121
+Energy Shield: 24
+--------
+Requirements:
+Level: 64
+Str: 62
+Int: 62
+--------
+Sockets: R-R
+--------
+Item Level: 73
+--------
++45 to maximum Mana
+17% increased Rarity of Items found
+15% increased Movement Speed
+Veiled Suffix
+
+
+Rarity: Rare
+Vengeance Blunt
+Colossus Mallet
+--------
+Two Handed Mace
+Physical Damage: 57-118
+Critical Strike Chance: 6.25% (augmented)
+Attacks per Second: 1.33 (augmented)
+Weapon Range: 13
+--------
+Requirements:
+Level: 59
+Str: 188
+--------
+Sockets: W-R-R R R-R
+--------
+Item Level: 72
+--------
+30% increased Stun Duration on Enemies (implicit)
+--------
+6% increased Attack Speed
+25% increased Critical Strike Chance
+0.35% of Physical Attack Damage Leeched as Mana
++4 Life gained on Kill
+--------
+Corrupted
+
+
+Rarity: Rare
+Gale Butcher
+Karui Chopper
+--------
+Two Handed Axe
+Physical Damage: 117-183 (augmented)
+Elemental Damage: 39-71 (augmented), 43-84 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.29 (augmented)
+Weapon Range: 13
+--------
+Requirements:
+Level: 58
+Str: 151
+Dex: 43
+--------
+Sockets: R R W
+--------
+Item Level: 80
+--------
+46% increased Physical Damage
+Adds 39 to 71 Fire Damage
+Adds 43 to 84 Cold Damage
++5% to Chaos Resistance
+12% increased Attack Speed (crafted)
+--------
+Corrupted
+--------
+Warlord Item
+
+
+Rarity: Rare
+Miracle Barrage
+Highborn Bow
+--------
+Bow
+Physical Damage: 17-66
+Elemental Damage: 3-56 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.45
+--------
+Requirements:
+Level: 54
+Dex: 161
+--------
+Sockets: G-R G-G
+--------
+Item Level: 79
+--------
+23% increased Elemental Damage with Attack Skills (implicit)
+--------
++1 to Level of Socketed Bow Gems
+Adds 3 to 56 Lightning Damage
+12% increased Stun Duration on Enemies
+Gain 8% of Physical Damage as Extra Cold Damage
+--------
+Shaper Item
+
+
+Rarity: Rare
+Golem Spawn
+Vaal Axe
+--------
+Two Handed Axe
+Quality: +6% (augmented)
+Physical Damage: 84-139 (augmented)
+Elemental Damage: 64-107 (augmented), 6-166 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.20
+Weapon Range: 13
+--------
+Requirements:
+Level: 64
+Str: 158
+Dex: 76
+--------
+Sockets: G-R
+--------
+Item Level: 71
+--------
++14 to Strength
+Adds 64 to 107 Fire Damage
+Adds 6 to 166 Lightning Damage
++4 Life gained for each Enemy hit by Attacks
+Attacks with this Weapon Penetrate 7% Lightning Resistance
+--------
+Crusader Item
+
+
+Rarity: Rare
+Tempest Slayer
+Vaal Hatchet
+--------
+One Handed Axe
+Physical Damage: 30-90
+Elemental Damage: 4-99 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.40
+Weapon Range: 11
+--------
+Requirements:
+Level: 65
+Str: 140
+Dex: 86
+--------
+Sockets: R-G R
+--------
+Item Level: 81
+--------
+Adds 4 to 99 Lightning Damage
+12% reduced Enemy Stun Threshold
+Gain 10% of Physical Damage as Extra Cold Damage
+5% chance to gain an Endurance Charge on Kill
+--------
+Redeemer Item
+
+
+Rarity: Rare
+Maelström Roar
+Ceremonial Axe
+--------
+One Handed Axe
+Physical Damage: 52-96 (augmented)
+Elemental Damage: 14-28 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.30 (augmented)
+Weapon Range: 11
+--------
+Requirements:
+Level: 56
+Str: 134
+Dex: 39
+--------
+Sockets: R-R
+--------
+Item Level: 73
+--------
+16% increased Physical Damage
+Adds 14 to 28 Fire Damage
+8% increased Attack Speed
+Attacks have 20% chance to cause Bleeding
+24% increased Damage with Bleeding
+15% chance to Maim on Hit
+--------
+Warlord Item
+
+
+Rarity: Rare
+Skull Song
+Vaal Sceptre
+--------
+Sceptre
+Quality: +9% (augmented)
+Physical Damage: 40-76 (augmented)
+Critical Strike Chance: 6.00%
+Attacks per Second: 1.40
+Weapon Range: 11
+--------
+Requirements:
+Level: 64
+Str: 113
+Int: 113
+--------
+Sockets: B R
+--------
+Item Level: 75
+--------
+32% increased Elemental Damage (implicit)
+--------
+Adds 5 to 61 Lightning Damage to Spells
+Adds 30 to 58 Chaos Damage to Spells
+19% increased Cast Speed
++13 Life gained on Kill
+--------
+Elder Item
+
+
+Rarity: Rare
+Gale Thirst
+Graceful Sword
+--------
+One Handed Sword
+Physical Damage: 40-65 (augmented)
+Critical Strike Chance: 5.50% (augmented)
+Attacks per Second: 1.50
+Weapon Range: 11
+--------
+Requirements:
+Level: 58
+Str: 78
+Dex: 94
+--------
+Sockets: G R
+--------
+Item Level: 79
+--------
++350 to Accuracy Rating (implicit)
+--------
+19% increased Physical Damage
+10% increased Critical Strike Chance
++37% to Global Critical Strike Multiplier
+0.21% of Physical Attack Damage Leeched as Life
++19 to Accuracy Rating
+5% increased Accuracy Rating per Frenzy Charge
+20% chance to gain a Frenzy Charge when you Block
+--------
+Shaper Item
+
+
+Rarity: Rare
+Entropy Shroud
+Triumphant Lamellar
+--------
+Armour: 481 (augmented)
+Evasion Rating: 588 (augmented)
+--------
+Requirements:
+Level: 69
+Str: 95
+Dex: 116
+--------
+Sockets: R-G
+--------
+Item Level: 71
+--------
++39 to Dexterity
++21 to Armour
++13 to Evasion Rating
+20% increased Armour and Evasion
++28 to maximum Life
+Regenerate 1.38% of Life per second
+--------
+Hunter Item
+
+
+Rarity: Magic
+Apprentice's Convoking Wand
+--------
+Wand
+Physical Damage: 30-56
+Critical Strike Chance: 7.00%
+Attacks per Second: 1.40
+--------
+Requirements:
+Level: 72
+Int: 242
+--------
+Sockets: R
+--------
+Item Level: 85
+--------
+Can roll Minion Modifiers (implicit)
+--------
+11% increased Spell Damage
+
+
+Rarity: Rare
+Onslaught Scratch
+Imbued Wand
+--------
+Wand
+Physical Damage: 28-53
+Critical Strike Chance: 7.00%
+Attacks per Second: 1.50
+--------
+Requirements:
+Level: 59
+Int: 188
+--------
+Sockets: B-B B
+--------
+Item Level: 85
+--------
+35% increased Spell Damage (implicit)
+--------
+Adds 19 to 40 Chaos Damage to Spells
+23% increased Cast Speed
++77 to maximum Mana
+24% increased Mana Regeneration Rate
++5 Life gained for each Enemy hit by Attacks
+
+
+Rarity: Magic
+Convoking Wand
+--------
+Wand
+Physical Damage: 30-56
+Critical Strike Chance: 7.00%
+Attacks per Second: 1.40
+--------
+Requirements:
+Intelligence: 242
+--------
+Sockets: B-B-B
+--------
+Item Level: 84
+--------
+Can roll Minion Modifiers (implicit)
+--------
+Unidentified
+
+
+Rarity: Unique
+Silverbranch
+Crude Bow
+--------
+Bow
+Physical Damage: 9-24 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.54 (augmented)
+--------
+Sockets: G
+--------
+Item Level: 83
+--------
++1 to Level of Socketed Bow Gems
+82% increased Physical Damage
+10% increased Attack Speed
++10 Mana gained on Kill
++30 to Accuracy Rating
+--------
+"The wild takes care of its own."
+- Hyrri of the Karui
+
+
+Rarity: Rare
+Woe Snare
+Stygian Vise
+--------
+Requirements:
+Level: 59
+--------
+Sockets: A
+--------
+Item Level: 73
+--------
+Has 1 Abyssal Socket (implicit)
+--------
++83 to maximum Life
++15% to Fire Resistance
++44% to Cold Resistance
+20% increased Flask Life Recovery rate
+Reflects 2 Physical Damage to Melee Attackers
++35% to Lightning Resistance (crafted)

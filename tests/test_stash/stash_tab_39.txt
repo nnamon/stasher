@@ -1,0 +1,411 @@
+Rarity: Normal
+Wharf Map
+--------
+Map Tier: 1
+Atlas Region: Tirn's End
+--------
+Item Level: 77
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Normal
+Excavation Map
+--------
+Map Tier: 6
+Atlas Region: Glennach Cairns
+--------
+Item Level: 77
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Normal
+Dungeon Map
+--------
+Map Tier: 11
+Atlas Region: Glennach Cairns
+--------
+Item Level: 78
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Magic
+Dungeon Map
+--------
+Map Tier: 11
+Atlas Region: Glennach Cairns
+--------
+Item Level: 79
+--------
+Unidentified
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Rare
+Unholy Bind
+Dungeon Map
+--------
+Map Tier: 11
+Atlas Region: Glennach Cairns
+Item Quantity: +69% (augmented)
+Item Rarity: +30% (augmented)
+Monster Pack Size: +19% (augmented)
+Quality: +20% (augmented)
+--------
+Item Level: 79
+--------
++40% Monster Physical Damage Reduction
+Slaying Enemies close together has a 13% chance to attract monsters from Beyond
++25% Monster Chaos Resistance
++40% Monster Elemental Resistance
+Players have 25% less Area of Effect
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+--------
+Corrupted
+
+
+Rarity: Rare
+Superior Dungeon Map
+--------
+Map Tier: 11
+Atlas Region: Glennach Cairns
+Item Quantity: +14% (augmented)
+Quality: +14% (augmented)
+--------
+Item Level: 82
+--------
+Unidentified
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Normal
+Lightning Falls
+--------
+The storms above strike with precision. A deft foot will avoid the blows.
+--------
+You will discover an area with an Electrocuting Tempest
+--------
+Right-click to add this prophecy to your character.
+
+
+Rarity: Currency
+Clear Oil
+--------
+Stack Size: 1/10
+--------
+Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.
+
+
+Rarity: Currency
+Clear Oil
+--------
+Stack Size: 2/10
+--------
+Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.
+Shift click to unstack.
+
+
+Rarity: Currency
+Orb of Chance
+--------
+Stack Size: 1/20
+--------
+Upgrades a normal item to a random rarity
+--------
+Right click this item then left click a normal item to apply it.
+
+
+Rarity: Currency
+Armourer's Scrap
+--------
+Stack Size: 1/40
+--------
+Improves the quality of an armour
+--------
+Right click this item then left click an armour to apply it. Has greater effect on lower-rarity armours. The maximum quality is 20%.
+
+
+Rarity: Currency
+Chaos Orb
+--------
+Stack Size: 1/10
+--------
+Reforges a rare item with new random modifiers
+--------
+Right click this item then left click a rare item to apply it.
+
+
+Rarity: Normal
+Hallowed Mana Flask
+--------
+Recovers 700 Mana over 6.00 Seconds
+Consumes 6 of 30 Charges on use
+Currently has 0 Charges
+--------
+Requirements:
+Level: 42
+--------
+Item Level: 62
+--------
+Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.
+
+
+Rarity: Normal
+Gilded Shaper Scarab
+--------
+Adds Shaper Influence outcome to Map Area
+90% more Rare Shaper Items found in Area
+--------
+Qianga of the Stars, Deliverer of the Sealing Blade to the Watchers, go now, and
+let your half-dreamt life be troubled by nightmares of achromic hunger no more.
+--------
+Can be used in a personal Map Device to add modifiers to a Map.
+
+
+Rarity: Normal
+Polished Shaper Scarab
+--------
+Adds Shaper Influence outcome to Map Area
+60% more Rare Shaper Items found in Area
+--------
+Bold dreamer, Qianga of the Stars, she of the Celestial Cold! These titles
+we bestow upon the one among us whose soul speaks to the ineffable.
+--------
+Can be used in a personal Map Device to add modifiers to a Map.
+
+
+Rarity: Normal
+Gilded Shaper Scarab
+--------
+Adds Shaper Influence outcome to Map Area
+90% more Rare Shaper Items found in Area
+--------
+Qianga of the Stars, Deliverer of the Sealing Blade to the Watchers, go now, and
+let your half-dreamt life be troubled by nightmares of achromic hunger no more.
+--------
+Can be used in a personal Map Device to add modifiers to a Map.
+
+
+Rarity: Normal
+Polished Elder Scarab
+--------
+Adds Elder Influence outcome to Map Area
+60% more Rare Elder Items found in Area
+--------
+Speaker of unclean truths, Egrin of the Dark Between Stars.
+We curse you whose soul echoes the madness of the void!
+--------
+Can be used in a personal Map Device to add modifiers to a Map.
+
+
+Rarity: Normal
+Polished Bestiary Scarab
+--------
+Area contains Einhar
+Area contains 2 additional Red Beasts
+--------
+None among us understand the beasts of this world better than you,
+honoured Agnar. You will root out the mysteries of wild-artefacts.
+--------
+Can be used in a personal Map Device to add modifiers to a Map.
+
+
+Rarity: Currency
+Blacksmith's Whetstone
+--------
+Stack Size: 1/20
+--------
+Improves the quality of a weapon
+--------
+Right click this item then left click a weapon to apply it. Has greater effect on lower-rarity weapons. The maximum quality is 20%.
+
+
+Rarity: Currency
+Orb of Augmentation
+--------
+Stack Size: 1/30
+--------
+Enchants a magic item with a new random modifier
+--------
+Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers. The item's Catalyst quality increases the chance of applying a modifier which matches the quality type. Removes 2% Quality applied by Catalysts on use.
+
+
+Rarity: Currency
+Orb of Transmutation
+--------
+Stack Size: 1/40
+--------
+Upgrades a normal item to a magic item
+--------
+Right click this item then left click a normal item to apply it.
+
+
+Rarity: Normal
+Shore Map
+--------
+Map Tier: 13
+Atlas Region: Glennach Cairns
+--------
+Item Level: 83
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+Rarity: Rare
+Ancient Portent
+Ghastly Eye Jewel
+--------
+Abyss
+--------
+Requirements:
+Level: 48
+--------
+Item Level: 72
+--------
++26 to maximum Mana
+7% chance to Avoid being Poisoned
+9% chance to Avoid being Stunned
+Minions Regenerate 10 Life per second
+--------
+Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+
+
+Rarity: Magic
+Cobalt Jewel of Poisoning
+--------
+Item Level: 69
+--------
+7% increased Poison Duration
+3% chance to Poison on Hit
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+
+
+Rarity: Rare
+Foe Desire
+Crimson Jewel
+--------
+Item Level: 71
+--------
++9 to Strength and Dexterity
+15% increased Lightning Damage
+8% increased maximum Mana
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+
+
+Rarity: Normal
+Slaughter Knife
+--------
+Rune Dagger
+Physical Damage: 10-86
+Critical Strike Chance: 6.30%
+Attacks per Second: 1.40
+Weapon Range: 10
+--------
+Requirements:
+Level: 58
+Dex: 81
+Int: 117
+--------
+Sockets: G-G
+--------
+Item Level: 62
+--------
+30% increased Global Critical Strike Chance (implicit)
+
+
+Rarity: Rare
+Viper Lock
+Studded Belt
+--------
+Requirements:
+Level: 40
+--------
+Item Level: 81
+--------
+26% increased Stun Duration on Enemies (implicit)
+--------
++14 to Strength
++77 to maximum Life
++54 to maximum Mana
+Veiled Suffix
+
+
+Rarity: Magic
+Sapphire Ambush Boots of the Fox
+--------
+Evasion Rating: 85
+Energy Shield: 17
+--------
+Requirements:
+Level: 47
+Dex: 45
+Int: 45
+--------
+Sockets: R
+--------
+Item Level: 62
+--------
++20 to Dexterity
++34 to maximum Mana
+
+
+Rarity: Rare
+Mind Hunger
+Labrys
+--------
+Two Handed Axe
+Physical Damage: 63-105
+Elemental Damage: 15-28 (augmented)
+Critical Strike Chance: 5.00%
+Attacks per Second: 1.45 (augmented)
+Weapon Range: 13
+--------
+Requirements:
+Level: 60
+Str: 122
+Dex: 53
+--------
+Sockets: G-R
+--------
+Item Level: 81
+--------
++39 to Dexterity
++18% to Damage over Time Multiplier
+Adds 15 to 28 Fire Damage
+21% increased Attack Speed
+20% increased Attack Speed if you've Killed Recently
+--------
+Elder Item
+
+
+Rarity: Unique
+Zahndethus' Cassock
+Sage's Robe
+--------
+Energy Shield: 178 (augmented)
+--------
+Requirements:
+Level: 37
+Int: 104
+--------
+Sockets: B-R
+--------
+Item Level: 74
+--------
+Adds 1 to 40 Lightning Damage to Attacks
+140% increased Energy Shield
++43% to Chaos Resistance
+25% increased Light Radius
+100% chance to create Consecrated Ground when you Block
+--------
+When dead men rise and darkness falls
+Only faith can be your walls
+Walls of Light, not of brick
+Twice as strong and twice as thick
