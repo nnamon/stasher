@@ -124,10 +124,14 @@ class Utilities():
                 result.append(i)
 
             # Otherwise, attempt to find two one-handed items (except quivers).
+            # Also, we only allow one shield.
             one_handed_items = []
             for item in items:
                 if (isinstance(item, Gear) and item.gearslot == 'WieldedOne' and item.lowerclass !=
                         'Quivers'):
+                    if (len(one_handed_items) == 1 and one_handed_items[0].lowerclass == 'Shields'
+                            and item.lowerclass == 'Shields'):
+                        continue
                     one_handed_items.append(item)
                 if len(one_handed_items) >= 2:
                     # We only need two.
