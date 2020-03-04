@@ -32,10 +32,12 @@ class Utilities():
     '''Common utilities that might be useful.
     '''
 
-    def find_all_unidentified(self, stashtabs):
+    def find_all_unidentified(self, stashtabs, rarity=None):
         unidentified_items = []
         for i in stashtabs.items:
             if i.identified is False:
+                if rarity is not None and i.get_rarity() != rarity:
+                    continue
                 unidentified_items.append(i)
         return unidentified_items
 
@@ -78,7 +80,7 @@ class Utilities():
     def get_chaos_sets(self, stashtabs):
         '''Build a list of all sets of chaos recipe viable combinations.
         '''
-        unidentified = self.find_all_unidentified(stashtabs)
+        unidentified = self.find_all_unidentified(stashtabs, 'Rare')
         remaining = copy.deepcopy(unidentified)
         sets = []
 
