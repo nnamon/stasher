@@ -41,6 +41,13 @@ class Utilities():
                 unidentified_items.append(i)
         return unidentified_items
 
+    def find_by_rarity(self, stashtabs, rarity):
+        filtered_items = []
+        for i in stashtabs.items:
+            if i.get_rarity() == rarity:
+                filtered_items.append(i)
+        return filtered_items
+
     def batch_chaos_sets(self, chaos_sets):
         '''Packs chaos sets into batches for vendoring.
         '''
@@ -77,11 +84,14 @@ class Utilities():
 
         return batches
 
-    def get_chaos_sets(self, stashtabs):
+    def get_chaos_sets(self, stashtabs, allow_identified=False):
         '''Build a list of all sets of chaos recipe viable combinations.
         '''
-        unidentified = self.find_all_unidentified(stashtabs, 'Rare')
-        remaining = copy.deepcopy(unidentified)
+        if allow_identified:
+            filtered_items = self.find_by_rarity('Rare')
+        else:
+            filtered_items = self.find_all_unidentified(stashtabs, 'Rare')
+        remaining = copy.deepcopy(filtered_items)
         sets = []
 
         # Define the build_set function. This is non-functional, modifies list in place.
