@@ -22,7 +22,7 @@ class Account():
 
     def make_request(self, query):
         cookies = {'POESESSID': self.poe_sessionid}
-        path = '{}/{}'.format(self.host, STASH_ITEMS_PATH)
+        path = '{}{}'.format(self.host, STASH_ITEMS_PATH)
         struct = requests.get(path, params=query, cookies=cookies).json()
         return struct
 
