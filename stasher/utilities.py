@@ -257,5 +257,5 @@ class Utilities():
             unordered_sequence.append(result)
 
         # Order the sequence for control clicks.
-        ordered_sequence = multikeysort(unordered_sequence, ['iy', 'ix'])
+        ordered_sequence = multikeysort(unordered_sequence, ['ix', 'iy'])
         return ordered_sequence

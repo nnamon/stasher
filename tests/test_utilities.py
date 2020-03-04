@@ -109,21 +109,27 @@ def test_chaos_recipe(datadir):
     assert belt_one.gearslot == 'Waist'
 
     # Set checking function
-    def check_set(chaos_set):
+    def check_set(chaos_set, num_sets=1):
         def count_slots(slot):
             count = 0
             for i in chaos_set:
                 if i.gearslot == slot:
                     count += 1
             return count
-        assert count_slots('Head') == 1
-        assert count_slots('Body') == 1
-        assert count_slots('Hands') == 1
-        assert count_slots('Feet') == 1
-        assert count_slots('Rings') == 2
-        assert count_slots('Amulet') == 1
-        assert count_slots('Waist') == 1
-        assert count_slots('WieldedOne') == 2 or count_slots('WieldedTwo') == 1
+        assert count_slots('Head') == (num_sets * 1)
+        assert count_slots('Body') == (num_sets * 1)
+        assert count_slots('Hands') == (num_sets * 1)
+        assert count_slots('Feet') == (num_sets * 1)
+        assert count_slots('Rings') == (num_sets * 2)
+        assert count_slots('Amulet') == (num_sets * 1)
+        assert count_slots('Waist') == (num_sets * 1)
+        if num_sets == 1:
+            assert count_slots('WieldedOne') == 2 or count_slots('WieldedTwo') == 1
+        elif num_sets == 2:
+            one_one = count_slots('WieldedOne') == 4
+            one_two = count_slots('WieldedOne') == 2 and count_slots('WieldedTwo') == 1
+            two_two = count_slots('WieldedTwo') == 2
+            assert one_one or one_two or two_two
 
     # Try to retrieve sets.
     utils = Utilities()
@@ -150,7 +156,6 @@ def test_chaos_recipe(datadir):
     assert len(batches) > 2  # The minimum number of batched is 3.
 
     # Verify that the batching was done properly.
-    print(batches)
     batch_items = set()
     for batch in batches:
         inv_coordinates = set()
@@ -158,6 +163,11 @@ def test_chaos_recipe(datadir):
             batch_items.add(item['item'])
             inv_coordinates.add((item['ix'], item['iy']))
         assert len(inv_coordinates) == len(batch)
+        flat_items = [i['item'] for i in batch]
+        if len(batch) > 10:
+            check_set(flat_items, 2)
+        else:
+            check_set(flat_items)
     assert len(batch_items) == len(unique_items)
 
 
