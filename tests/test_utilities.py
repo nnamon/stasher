@@ -108,20 +108,57 @@ def test_chaos_recipe(datadir):
     assert belt_one.identified is False
     assert belt_one.gearslot == 'Waist'
 
+    # Set checking function
+    def check_set(chaos_set):
+        def count_slots(slot):
+            count = 0
+            for i in chaos_set:
+                if i.gearslot == slot:
+                    count += 1
+            return count
+        assert count_slots('Head') == 1
+        assert count_slots('Body') == 1
+        assert count_slots('Hands') == 1
+        assert count_slots('Feet') == 1
+        assert count_slots('Rings') == 2
+        assert count_slots('Amulet') == 1
+        assert count_slots('Waist') == 1
+        assert count_slots('WieldedOne') == 2 or count_slots('WieldedTwo') == 1
+
     # Try to retrieve sets.
     utils = Utilities()
     sets = utils.get_chaos_sets(stash_tabs)
+    unique_items = set()
+    item_count = 0
     assert sets is not None
     for i in sets:
         # Check that the sets contain either 9 or 10 items.
         assert len(i) == 9 or len(i) == 10
         # Check that the sets are all unidentified.
         for j in i:
+            unique_items.add(j)
             assert j.identified is False
+        # Check that the sets contain the required number of items.
+        check_set(i)
+        item_count += len(i)
+
+    # Test that we only have unique items and no duplicates.
+    assert len(unique_items) == item_count
 
     # Now that we know the sets are okay, test that we can batch them and get the packing orders.
     batches = utils.batch_chaos_sets(sets)
     assert len(batches) > 2  # The minimum number of batched is 3.
+
+    # Verify that the batching was done properly.
+    print(batches)
+    batch_items = set()
+    for batch in batches:
+        inv_coordinates = set()
+        for item in batch:
+            batch_items.add(item['item'])
+            inv_coordinates.add((item['ix'], item['iy']))
+        assert len(inv_coordinates) == len(batch)
+    assert len(batch_items) == len(unique_items)
 
 
 def test_pack_inventory_success(datadir):

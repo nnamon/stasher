@@ -88,11 +88,12 @@ class Utilities():
             for i in Gear.GEAR_SLOTS:
                 combination[i] = None
 
-            # Try to build the non-weapons first.
+            # Try to build the non-weapons first. Handle rings separately too.
             non_weapons = []
             for i in Gear.GEAR_SLOTS:
-                if 'Wielded' not in i:
+                if 'Wielded' not in i and 'Rings' not in i:
                     non_weapons.append(i)
+            combination['Rings'] = []
 
             # We operate in reverse so that we can remove items easily.
             for item in reversed(items):
@@ -101,16 +102,26 @@ class Utilities():
                         and combination[item.gearslot] is None):
                     combination[item.gearslot] = item
                     items.remove(item)
+                # Check if it is a ring.
+                if (isinstance(item, Gear) and item.gearslot == 'Rings' and
+                        len(combination['Rings']) < 2):
+                    combination['Rings'].append(item)
+                    items.remove(item)
 
             # Check that all non weapon slots are filled. If not, then chaos recipe is fail.
             for i in non_weapons:
                 if combination[i] is None:
                     return None
+            # Check that rings are filled.
+            if len(combination['Rings']) < 2:
+                return None
 
             # Prepare the results
             result = []
             for i in non_weapons:
                 result.append(combination[i])
+            for i in combination['Rings']:
+                result.append(i)
 
             # Otherwise, attempt to find two one-handed items (except quivers).
             one_handed_items = []
