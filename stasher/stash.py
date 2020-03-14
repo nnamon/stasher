@@ -122,6 +122,12 @@ class Item():
         self.verified = struct['verified']
         self.ilvl = struct['ilvl']
         self.parsed_icon_classes = self.parse_icon_link(self.icon)
+
+        # Detect if corrupted.
+        self.corrupted = False
+        if 'corrupted' in struct:
+            self.corrupted = struct['corrupted']
+
         self.struct = struct  # Save the struct just in case we want to debug.
 
 
