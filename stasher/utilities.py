@@ -88,7 +88,7 @@ class Utilities():
         '''Build a list of all sets of chaos recipe viable combinations.
         '''
         if allow_identified:
-            filtered_items = self.find_by_rarity('Rare')
+            filtered_items = self.find_by_rarity(stashtabs, 'Rare')
         else:
             filtered_items = self.find_all_unidentified(stashtabs, 'Rare')
         remaining = copy.deepcopy(filtered_items)
