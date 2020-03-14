@@ -93,7 +93,7 @@ class Utilities():
             filtered_items = self.find_all_unidentified(stashtabs, 'Rare')
 
         # Further filter out any corrupted items.
-        filtered_items = list(lambda x: x.corrupted is False, filtered_items)
+        filtered_items = list(filter(lambda x: x.corrupted is False, filtered_items))
 
         remaining = copy.deepcopy(filtered_items)
         sets = []
