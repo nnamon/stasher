@@ -48,6 +48,31 @@ class Utilities():
                 filtered_items.append(i)
         return filtered_items
 
+    def batch_items(self, items):
+        '''Packs generic items into batches for transferring.
+        '''
+        item_batches = []
+
+        for item in items:
+            # Check if the item will fit into any of the current batches.
+            for batch in item_batches:
+                candidate_batch = copy.deepcopy(batch)
+                candidate_batch.append(item)
+                packed = self.pack_inventory(candidate_batch)
+                if packed is not None:
+                    batch.append(item)
+                    break
+            # Otherwise create a new batch for the item.
+            else:
+                item_batches.append([item])
+
+        batches = []
+        for batch in item_batches:
+            packed = self.pack_inventory(batch)
+            batches.append(packed)
+
+        return batches
+
     def batch_chaos_sets(self, chaos_sets):
         '''Packs chaos sets into batches for vendoring.
         '''

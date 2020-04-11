@@ -233,3 +233,21 @@ def test_pack_inventory_failure(datadir):
     itemlist = itemlist * 3  # Triple it
     packed = utils.pack_inventory(itemlist)
     assert packed is None
+
+
+def test_pack_all_items(datadir):
+    '''Tests the packing of an entire stash tab.
+    '''
+    # Use the chaos recipe tab as an example.
+    chaos_path = datadir.join('chaos_recipe_tab.json')
+    chaos_data = json.load(open(chaos_path, 'r'))
+    stash_tabs = StashTabs(chaos_data, 3)
+
+    # Check that the items exist.
+    assert stash_tabs.items is not None
+
+    # Pack the items.
+    utils = Utilities()
+    itemlist = stash_tabs.items
+    batches = utils.batch_items(itemlist)
+    assert batches is not None
