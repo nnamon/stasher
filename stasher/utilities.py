@@ -48,10 +48,12 @@ class Utilities():
                 filtered_items.append(i)
         return filtered_items
 
-    def batch_items(self, items):
+    def batch_items(self, items, isorted=True):
         '''Packs generic items into batches for transferring.
         '''
         item_batches = []
+        if isorted:
+            items = sorted(items, key=lambda k: (k.x, k.y))
 
         for item in items:
             # Check if the item will fit into any of the current batches.
